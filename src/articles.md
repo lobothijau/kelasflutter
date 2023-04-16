@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Articles
+title: Tutorial Pemrograman Flutter
+subtitle: Buat aplikasi <em>mobile cross platform</em> untuk Android & iOS.
 exclude_from_search: true
 paginate:
   collection: posts

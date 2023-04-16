@@ -4,8 +4,6 @@ layout: bulmatown/post
 
 <div class="content-column">{%= yield %}</div>
 
-{{ liquid_render "subscribe" }}
-
 {% if resource.data.image_credit %}
   <p class="mt-6 is-size-7 has-text-centered"><em>Banner image by <a href="{{ page.data.image_credit.url | safe }}">{{ resource.data.image_credit.label }}</a></em></p>
 {% end %}

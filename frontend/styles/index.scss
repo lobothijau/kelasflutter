@@ -90,6 +90,8 @@ div.highlighter-rouge + div.highlighter-rouge > div.highlight {
     height: 75px;
     width: auto;
   }
+
+  font-size: 2rem;
 }
 .navbar {
   @include touch {
@@ -110,6 +112,12 @@ div.highlighter-rouge + div.highlighter-rouge > div.highlight {
 }
 .navbar-burger {
   height: 5.15rem;
+}
+.navbar-item img {
+  max-height: 120px !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
 }
 
 .hero {

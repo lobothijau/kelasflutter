@@ -1,12 +1,11 @@
 {% rendercontent "bulmatown/navbar" %}
   {% with logo %}
-    <a class="navbar-item" href="/">
-      {% svg "/images/fullstack_ruby_logo.svg", class: "logo", aria-labelledby: "fullstack-ruby-logo-title" %}
+    <a class="navbar-item navbar-brand" href="/">
+      <span style="font-weight: 200;letter-spacing:4px">KELAS</span><span style="font-weight:900;letter-spacing:4px">FLUTTER</span>
     </a>
   {% endwith %}
   {% with items_start %}
     <a class="navbar-item" href="/">Home</a>
-    <a class="navbar-item" href="/articles">Articles</a>
     <a class="navbar-item" href="/about">About</a>
     <div class="navbar-item has-dropdown is-hoverable">
       <a class="navbar-link" href="#">
