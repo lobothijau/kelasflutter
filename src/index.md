@@ -15,4 +15,4 @@ image: "https://mugshotbot.com/m?theme=two_up&mode=light&color=8a1024&pattern=di
 {% end %}
 
 
-<p class="mt-6 is-size-7 has-text-centered"><em>Banner image by <a href="https://unsplash.com/photos/DIp71kvwXhU">Aldebaran S on Unsplash</a></em></p>
+<p class="mt-6 is-size-7 has-text-centered"><em>Banner image by <a target=_blank href="https://unsplash.com/photos/DIp71kvwXhU">Aldebaran S on Unsplash</a></em></p>

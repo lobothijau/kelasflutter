@@ -5,7 +5,7 @@ layout: bulmatown/post
 <div class="content-column">{%= yield %}</div>
 
 {% if resource.data.image_credit %}
-  <p class="mt-6 is-size-7 has-text-centered"><em>Banner image by <a href="{{ page.data.image_credit.url | safe }}">{{ resource.data.image_credit.label }}</a></em></p>
+  <p class="mt-6 is-size-7 has-text-centered"><em>Banner image by <a target=_blank href="{{ page.data.image_credit.url | safe }}">{{ resource.data.image_credit.label }}</a></em></p>
 {% end %}
 
 <hr class="my-6" />
