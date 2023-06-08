@@ -9,6 +9,7 @@ image_hero: "/images/posts/laptop-and-phone.jpg"
 image_credit:
   url: https://unsplash.com/photos/8gWEAAXJjtI
   label: Plann on Unsplash
+published: false
 ---
 
 Ada beberapa opsi menduplikat layar Android di laptop. Salah satu opsi yang saat ini paling sering saya pakai adalah dengan menggunakan aplikasi bernama `scrcpy`. Aplikasi ini dikembangkan oleh Genymobile, perusahaan yang juga mengembangkan custom emulator yang cukup terkenal, [Genymotion](https://www.genymotion.com/). 
