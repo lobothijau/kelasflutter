@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Tutorial berbahasa Indonesia dalam membuat aplikasi mobile cross platform untuk Android & iOS menggunakan framework Flutter.
 
 twitter: kelasflutter
-mastodon: kelasflutter
+mastodon: 
 
 bulmatown_theme:
   image_sizes:
