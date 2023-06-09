@@ -3,6 +3,9 @@
 {% capture page_title %}{{ title | strip_html | strip_newlines }}{% endcapture %}
 <title>{% if page_title != "Index" %}{{ page_title | escape }} | {{ metadata.title | escape }}{% else %}{{ metadata.title | escape }}: {{ metadata.tagline | escape }}{% endif %}</title>
 
+<link rel="icon" href="https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png" />
+<link rel="apple-touch-icon" href="https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png" />
+
 <link rel="stylesheet" href="{% webpack_path css %}" />
 <script src="{% webpack_path js %}" defer></script>
 
